@@ -5,11 +5,7 @@ import * as THREE from "three";
 import { SVGLoader } from "three-stdlib";
 import { OrbitControls } from "three-stdlib";
 import type { MaterialType } from "@/components/MaterialSelector";
-import { createMaterial } from "@/lib/materials";
 import {
-  setupLighting,
-  createCamera,
-  handleResize,
   type EnvironmentPreset,
 } from "@/lib/threeUtils";
 import { useEnvironmentMap } from "@/hooks/useEnvironmentMap";
